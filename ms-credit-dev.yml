@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: credit-service
+    name: credit
   data:
     mongodb:
       uri: mongodb://localhost:27017/creditdb

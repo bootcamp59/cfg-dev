@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: transaction-service
+    name: transaction
   data:
     mongodb:
       uri: mongodb://localhost:27017/transactiondb
