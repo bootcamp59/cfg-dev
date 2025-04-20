@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ms-debitcard
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: debitcarddb
+
+server:
+  port: 8089
