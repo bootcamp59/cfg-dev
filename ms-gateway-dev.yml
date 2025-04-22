@@ -43,3 +43,8 @@ spring:
           uri: lb://MS-DEBITCARD
           predicates:
             - Path=/api/v1/debitcard/**
+
+        - id: ms-yanki
+          uri: lb://MS-YANKI
+          predicates:
+            - Path=/api/v1/yanki/**
