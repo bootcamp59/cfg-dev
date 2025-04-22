@@ -19,3 +19,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+
+yanki:
+  ms-debitcard-path: http://MS-DEBITCARD/api/v1/account
