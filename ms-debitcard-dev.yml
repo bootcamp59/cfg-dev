@@ -16,3 +16,6 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+yanki:
+  ms-account-path: http://ACCOUNT/api/v1/account
