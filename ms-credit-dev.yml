@@ -1,5 +1,3 @@
-
-
 spring:
   application:
     name: credit
@@ -12,12 +10,12 @@ spring:
       uri: http://localhost:8888
 
 server:
-  port: 8087
+  port: ${PORT:${SERVER_PORT:0}}
 eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
       default-zone: http://localhost:8761/eureka
-    instance:
-      hostname: localhost
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
