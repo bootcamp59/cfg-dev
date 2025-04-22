@@ -1,0 +1,43 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: customer
+          uri: lb://customer
+          predicates:
+            - Path=/customer/**
+
+        - id: account
+          uri: lb://account
+          predicates:
+            - Path=/account/**
+
+        - id: credit
+          uri: lb://credit
+          predicates:
+            - Path=/credit/**
+
+        - id: transaction
+          uri: lb://transaction
+          predicates:
+            - Path=/transaction/**
+
+        - id: ms-debitcard
+          uri: lb://debitcard
+          predicates:
+            - Path=/debitcard/**
