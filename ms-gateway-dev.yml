@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 eureka:
   client:
@@ -22,7 +22,7 @@ spring:
         - id: CUSTOMER
           uri: lb://customer
           predicates:
-            - Path=/customer/**
+            - Path=/api/v1/customer/**
 
         - id: account
           uri: lb://ACCOUNT
