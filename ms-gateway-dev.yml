@@ -20,24 +20,24 @@ spring:
         - id: customer
           uri: lb://customer
           predicates:
-            - Path=/customer/**
+            - Path=/api/v1/customer/**
 
         - id: account
           uri: lb://account
           predicates:
-            - Path=/account/**
+            - Path=/api/v1/account/**
 
         - id: credit
           uri: lb://credit
           predicates:
-            - Path=/credit/**
+            - Path=/api/v1/credit/**
 
         - id: transaction
           uri: lb://transaction
           predicates:
-            - Path=/transaction/**
+            - Path=/api/v1/transaction/**
 
         - id: ms-debitcard
           uri: lb://debitcard
           predicates:
-            - Path=/debitcard/**
+            - Path=/api/v1/debitcard/**
