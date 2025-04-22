@@ -18,26 +18,26 @@ spring:
           enabled: true
       routes:
         - id: customer
-          uri: lb://customer
+          uri: lb://CUSTOMER
           predicates:
             - Path=/api/v1/customer/**
 
         - id: account
-          uri: lb://account
+          uri: lb://ACCOUNT
           predicates:
             - Path=/api/v1/account/**
 
         - id: credit
-          uri: lb://credit
+          uri: lb://CREDIT
           predicates:
             - Path=/api/v1/credit/**
 
         - id: transaction
-          uri: lb://transaction
+          uri: lb://TRANSACTION
           predicates:
             - Path=/api/v1/transaction/**
 
         - id: ms-debitcard
-          uri: lb://debitcard
+          uri: lb://MS-DEBITCARD
           predicates:
             - Path=/api/v1/debitcard/**
