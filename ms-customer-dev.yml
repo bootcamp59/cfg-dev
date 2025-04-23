@@ -16,3 +16,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+customer:
+  ms-account-api: http://ACCOUNT/api/v1/account
+  ms-credit-api: http://CREDIT/api/v1/credit/customer
