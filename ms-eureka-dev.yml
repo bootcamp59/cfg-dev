@@ -9,4 +9,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      default-zone: http://eureka:8761/eureka/
+      default-zone: http://ms-eureka:8761/eureka/
