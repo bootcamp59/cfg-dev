@@ -5,10 +5,6 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/creditdb
 
-  cloud:
-    config:
-      uri: http://localhost:8888
-
 server:
   port: ${PORT:${SERVER_PORT:0}}
 eureka:
