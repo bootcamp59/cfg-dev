@@ -46,3 +46,5 @@ spring:
           uri: lb://MS-YANKI
           predicates:
             - Path=/api/v1/yanki/**
+    config:
+      label: develop
