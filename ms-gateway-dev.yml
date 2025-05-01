@@ -9,8 +9,6 @@ eureka:
       default-zone: http://ms-eureka:8761/eureka/
 
 spring:
-  application:
-    name: ms-gateway
   cloud:
     gateway:
       discovery:
@@ -46,5 +44,5 @@ spring:
           uri: lb://MS-YANKI
           predicates:
             - Path=/api/v1/yanki/**
-    config:
-      label: develop
+  config:
+    label: develop
