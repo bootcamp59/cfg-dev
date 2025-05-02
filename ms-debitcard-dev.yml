@@ -16,4 +16,4 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 yanki:
-  ms-account-path: http://ACCOUNT/api/v1/account
+  ms-account-path: http://MS-ACCOUNT/api/v1/account

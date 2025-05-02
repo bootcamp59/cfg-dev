@@ -4,10 +4,6 @@ spring:
       uri: mongodb+srv://irazabarob44:XrRPi6r4tNfxyEhN@cluster0.g32atsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       database: transactiondb
 
-  cloud:
-    config:
-      uri: http://localhost:8888
-
 server:
   port: ${PORT:${SERVER_PORT:0}}
 eureka:
