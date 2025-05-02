@@ -17,4 +17,4 @@ eureka:
 
 account:
   ms-transaction-api: http://TRANSACTION/api/v1/transaction
-  ms-customer-api: http://CUSTOMER/api/v1/customer/customers
+  ms-customer-api: http://MS-CUSTOMER/api/v1/customer/customers
