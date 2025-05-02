@@ -20,18 +20,18 @@ spring:
           predicates:
             - Path=/api/v1/customer/**
 
-        - id: account
-          uri: lb://ACCOUNT
+        - id: ms-account
+          uri: lb://MS-ACCOUNT
           predicates:
             - Path=/api/v1/account/**
 
-        - id: credit
-          uri: lb://CREDIT
+        - id: ms-credit
+          uri: lb://MS-CREDIT
           predicates:
             - Path=/api/v1/credit/**
 
-        - id: transaction
-          uri: lb://TRANSACTION
+        - id: ms-transaction
+          uri: lb://MS-TRANSACTION
           predicates:
             - Path=/api/v1/transaction/**
 
