@@ -3,7 +3,7 @@ spring:
     name: account
   data:
     mongodb:
-      uri: mongodb://localhost:27017
+      uri: mongodb+srv://irazabarob44:XrRPi6r4tNfxyEhN@cluster0.g32atsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       database: accountdb
 
 server:

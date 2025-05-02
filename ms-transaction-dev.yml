@@ -3,7 +3,8 @@ spring:
     name: transaction
   data:
     mongodb:
-      uri: mongodb://localhost:27017/transactiondb
+      uri: mongodb+srv://irazabarob44:XrRPi6r4tNfxyEhN@cluster0.g32atsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: transactiondb
 
   cloud:
     config:

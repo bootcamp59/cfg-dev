@@ -3,7 +3,8 @@ spring:
     name: credit
   data:
     mongodb:
-      uri: mongodb://localhost:27017/creditdb
+      uri: mongodb+srv://irazabarob44:XrRPi6r4tNfxyEhN@cluster0.g32atsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: creditdb
 
 server:
   port: ${PORT:${SERVER_PORT:0}}

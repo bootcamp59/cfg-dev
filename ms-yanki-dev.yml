@@ -3,7 +3,8 @@ spring:
     name: ms-yanki
   data:
     mongodb:
-      uri: mongodb://localhost:27017/yankidb
+      uri: mongodb+srv://irazabarob44:XrRPi6r4tNfxyEhN@cluster0.g32atsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: yankidb
 
   kafka:
     bootstrap-servers: kafka:9092
