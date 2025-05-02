@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: account
   data:
     mongodb:
       uri: mongodb+srv://irazabarob44:XrRPi6r4tNfxyEhN@cluster0.g32atsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
