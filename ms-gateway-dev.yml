@@ -16,7 +16,7 @@ spring:
           enabled: true
       routes:
         - id: MS-CUSTOMER
-          uri: lb://customer
+          uri: lb://MS-CUSTOMER
           predicates:
             - Path=/api/v1/customer/**
 
