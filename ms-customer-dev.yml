@@ -17,4 +17,4 @@ eureka:
 
 customer:
   ms-account-api: http://MS-ACCOUNT/api/v1/account
-  ms-credit-api: http://MS-CREDIT/api/v1/credit/customer
+  ms-credit-api: http://MS-CREDIT/api/v1/credit
